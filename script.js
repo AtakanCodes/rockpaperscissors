@@ -15,3 +15,12 @@ function getComputerChoice() {
     return choice;
 }
 
+
+function getHumanChoice() {
+    let userInput = prompt("Choose your move");
+    return userInput;
+}
+
+let humanScore = 0
+let computerScore = 0
+
